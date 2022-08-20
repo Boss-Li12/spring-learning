@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--下标赋值-->
+<!--    <bean id="user" class="com.fat.pojo.User">-->
+<!--        <constructor-arg index="0" value="fatseaJava"/>-->
+<!--    </bean>-->
+
+    <!--相同类型冲突不建议使用-->
+<!--    <bean id="user" class="com.fat.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="fatsea"/>-->
+<!--    </bean>-->
+
+    <!--直接通过参数名来设置-->
+    <bean id="user" class="com.fat.pojo.User">
+        <constructor-arg name="name" value="fatsea"></constructor-arg>
+    </bean>
+
+    <bean id="userT" class="com.fat.pojo.UserT">
+
+    </bean>
+
+    <!--如果添加别名，可以用别名获取对象-->
+    <alias name="user" alias="xxx"></alias>
+
+    
+    
+</beans>
