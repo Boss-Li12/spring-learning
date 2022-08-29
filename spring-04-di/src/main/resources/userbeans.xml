@@ -11,6 +11,6 @@
 
 
     <!--c注入-->
-    <bean id="user2" class="com.fat.pojo.User" c:age="18" c:name="fatsea2"/>
+    <bean id="user2" class="com.fat.pojo.User" c:age="18" c:name="fatsea2" scope="prototype"/>
 
 </beans>
