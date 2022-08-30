@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 public class User {
 
     // 相当于bean里面的property
-    @Value("肥海")
+    @Value("肥海123321")
     public String name;
 
     public void setName(String name) {

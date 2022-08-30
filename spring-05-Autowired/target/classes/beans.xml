@@ -12,6 +12,7 @@
 
     <bean id="cat" class="com.fat.pojo.Cat"/>
     <bean id="dog222" class="com.fat.pojo.Dog"/>
+    <bean id="dog22" class="com.fat.pojo.Dog"/>
     <bean id="people" class="com.fat.pojo.People"/>
 
 
