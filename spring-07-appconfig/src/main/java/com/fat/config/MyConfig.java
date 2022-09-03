@@ -26,3 +26,4 @@ public class MyConfig {
         return new User();//就是返回要注入到bean中的对象
     }
 }
+
